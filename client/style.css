@@ -170,3 +170,12 @@ form img {
   width: 30px;
   height: 30px;
 }
+
+@media (max-width: 550px) {
+  
+#app {
+
+  height: 75vh;
+  
+}
+}
