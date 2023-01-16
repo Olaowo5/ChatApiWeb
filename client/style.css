@@ -40,6 +40,27 @@ body {
   scroll-behavior: smooth;
 }
 
+.parentdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Titlediv{
+
+  border: 3px dashed rgb(225, 171, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+ 
+  font-size: 20px;
+ 
+  font-weight: 300;
+  width:50vw;
+}
+
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
   display: none;
